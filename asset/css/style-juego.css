@@ -80,6 +80,12 @@
     /*diseño reponsivo*/
     
     @media screen and (max-width: 480px) {
+        
+         body {
+            background: linear-gradient(rgb(247, 240, 239), rgb(226, 114, 114));
+            background-repeat: repeat-x;
+            padding-bottom: 400px;
+        }
         header {
             text-align: center;
             font-size: 30px;
