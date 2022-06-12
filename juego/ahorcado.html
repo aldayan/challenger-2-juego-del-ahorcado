@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../asset/img/craneo.png" type="image/x-icon">
+
+    <link href="../asset/css/reset.css" rel="stylesheet">
+    <link href="../asset/css/style-juego.css" rel="stylesheet">
+
+    <title>Jugando</title>
+</head>
+
+<body>
+    <header>
+        Juego Del Ahorcado
+    </header>
+
+    <div class="ahorcado">
+        <canvas id="ahorcado" width="450px" height="500px"></canvas>
+        <canvas id="lineas" width="1200px" height="250px"></canvas>
+    </div>
+
+    <div class="botonesAhorcado">
+        <button type="submit" id="nuevoJuego" class="nuevoJuego" onclick="window.location.href='ahorcado.html'">Nuevo juego</button>
+        <button type="submit" id="desistir " class="desistir" onclick="window.location.href='../index.html'">Desistir</button>
+    </div>
+
+
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="../asset/js/dibujo.js" defer></script>
+<script src="../asset/js/juego.js" defer></script>
+
+
+
+</html>

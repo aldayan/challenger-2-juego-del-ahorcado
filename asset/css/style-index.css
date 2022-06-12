@@ -1,0 +1,90 @@
+          body {
+              background: linear-gradient(rgb(207, 46, 38), rgb(251, 251, 253));
+              background-repeat: repeat-x;
+              font-style: italic;
+          }
+          
+          header {
+              text-align: center;
+              font-size: 30px;
+              margin-top: 100px;
+              color: #dd1111;
+              transition: 1s;
+              font-weight: bold;
+          }
+          
+          header:hover {
+              font-size: 40px;
+          }
+          
+          .cadaver {
+              width: 5%;
+              margin-left: 650px;
+              transition: 1s;
+          }
+          
+          .cadaver:hover {
+              width: 7%;
+          }
+          
+          .menuPrincipal {
+              text-align: center;
+              width: 100%;
+              margin-top: 100px;
+          }
+          
+          .boton {
+              text-decoration: none;
+              color: red;
+              width: 15rem;
+              padding: 1rem;
+              border-radius: 1rem;
+              border: 1px solid rgb(12, 11, 11);
+              background-color: inherit;
+              margin-left: 15px;
+              cursor: pointer;
+              border: red solid 1px;
+              background: transparent;
+          }
+          
+          footer {
+              text-align: center;
+              padding: 40px;
+              margin-top: 50px;
+              font-weight: bold;
+              font-style: italic;
+              background-color: rgb(243, 197, 197);
+          }
+          
+          footer p:hover {
+              font-size: 20px;
+              transition: 1s;
+          }
+          
+          a img {
+              margin: 20px 0;
+          }
+          
+          a img:hover {
+              box-shadow: 10px 10px 30px 15px rgb(194, 166, 166);
+          }
+          /*diseño reponsivo*/
+          
+          @media screen and (max-width: 480px) {
+              header {
+                  text-align: center;
+                  font-size: 30px;
+                  margin-top: 100px;
+                  color: #dd1111;
+                  transition: 1s;
+                  font-weight: bold;
+              }
+              .cadaver {
+                  width: 10%;
+                  margin-left: 190px;
+              }
+              footer {
+                  width: 100%;
+                  padding-left: 1px;
+              }
+          }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../asset/img/craneo.png" type="image/x-icon">
+    <link href="../asset/css/reset.css" rel="stylesheet">
+    <link href="../asset/css/style-palabras.css" rel="stylesheet">
+    <title>Agregando palabras</title>
+</head>
+
+<body>
+    <img src="../asset/img/ahorcado.gif" alt="Hombre ahorcado" class="ahorcado">
+
+    <div class="inputPalabras">
+        <input type="text" id="ingresar" placeholder="Ingrese una palabra">
+    </div>
+
+    <div class="espacioerrores">
+        <p class="invisible" id="texto">No se admiten numeros en el juego</p>
+        <p class="invisible" id="limite">La palabra no puede tener más de 8 letras</p>
+        <p class="invisible" id="vacio">No se permiten valores vacíos</p>
+        <p class="invisible" id="acentos">No se permiten letras con acentos ni caracteres especiales</p>
+    </div>
+
+    <div id="alerta">
+        <p class="textalert"> &#9888; Máx. de 8 letras </p>
+    </div>
+
+    <div class="botones">
+        <button class="guardar" id="guardar">Guardar y Empezar</button>
+        <a class="cancelar " href="../index.html">Cancelar</a>
+    </div>
+
+
+</body>
+<script src="../asset/js/palabras.js "></script>
+
+</html>

@@ -1,0 +1,109 @@
+    html {
+        font-style: italic;
+        font-size: 16px;
+    }
+    
+    body {
+        background: linear-gradient(rgb(247, 240, 239), rgb(226, 114, 114));
+        background-repeat: repeat-x;
+    }
+    
+    header {
+        text-align: center;
+        margin-top: 40px;
+        color: red;
+        transition: 1s;
+        font-size: 20px;
+    }
+    
+    header:hover {
+        font-size: 30px;
+    }
+    
+    .ahorcado {
+        width: 45%;
+        margin: 60px auto 30px auto;
+    }
+    
+    #ahorcado {
+        width: 40%;
+        margin: 0 30% 50px 30%;
+    }
+    
+    #lineas {
+        width: 100%;
+    }
+    
+    .botonesAhorcado {
+        width: 50%;
+        text-align: center;
+        margin: 10px 340px;
+    }
+    
+    [type="submit"] {
+        width: 15rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 1px solid red;
+        background-color: inherit;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    
+    .nuevoJuego {
+        border: 1px solid #dd1111;
+        color: #dd1111;
+        transition: 1s;
+        font-style: italic;
+        background: transparent;
+    }
+    
+    .nuevoJuego:hover {
+        background: linear-gradient(rgb(240, 31, 31), rgba(233, 192, 192, 0.986));
+        color: white;
+        font-size: 15px;
+    }
+    
+    .desistir {
+        border: 1px solid #dd1111;
+        color: #dd1111;
+        transition: 1s;
+        font-style: italic;
+        background: transparent;
+    }
+    
+    .desistir:hover {
+        background: linear-gradient(rgb(20, 20, 20), rgba(211, 41, 41, 0.925));
+        color: white;
+        font-size: 15px;
+    }
+    /*diseño reponsivo*/
+    
+    @media screen and (max-width: 480px) {
+        header {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 100px;
+            color: #dd1111;
+            transition: 1s;
+            font-weight: bold;
+        }
+        .botonesAhorcado {
+            width: 100%;
+            text-align: center;
+            margin: 10px 340px;
+            margin-left: 1px;
+        }
+        [type="submit"] {
+            width: 15rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            border: 1px solid red;
+            background-color: inherit;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .nuevoJuego {
+            margin-bottom: 20px;
+        }
+    }

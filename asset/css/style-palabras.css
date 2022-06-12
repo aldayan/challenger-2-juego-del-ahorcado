@@ -1,0 +1,137 @@
+body {
+    background: radial-gradient(rgb(207, 46, 38), rgb(56, 56, 61));
+    font-style: italic;
+    width: 100%;
+}
+
+.ahorcado {
+    width: 5%;
+    margin-left: 50px;
+}
+
+.inputPalabras {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    padding: 10px 300px 50px;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(37, 32, 32);
+    background: transparent;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(37, 35, 35);
+    font-style: italic;
+}
+
+.espacioerrores {
+    margin-bottom: 10px;
+    color: rgb(36, 33, 33);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.invisible {
+    display: none;
+}
+
+#alerta {
+    display: flex;
+    margin: 10px 0;
+}
+
+.textalert {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: white;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.guardar {
+    text-decoration: none;
+    background: transparent;
+    color: red;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(12, 11, 11);
+    background-color: inherit;
+    margin-right: 150px;
+    cursor: pointer;
+    border: red solid 1px;
+    transition: 1s;
+    font-style: italic;
+}
+
+.guardar:hover {
+    background-color: red;
+    color: white;
+}
+
+.cancelar {
+    text-decoration: none;
+    background: transparent;
+    color: red;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(12, 11, 11);
+    background-color: inherit;
+    margin-left: 150px;
+    cursor: pointer;
+    border: red solid 1px;
+    transition: 1s;
+}
+
+.cancelar:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: radial-gradient(rgb(207, 46, 38), rgb(56, 56, 61));
+        font-style: italic;
+        background-repeat: repeat-y;
+        margin-bottom: 100%;
+    }
+    .ahorcado {
+        width: 10%;
+        margin-left: 50px;
+    }
+    .inputPalabras {
+        text-align: center;
+    }
+    input {
+        text-align: center;
+        padding: 10px 100px 50px;
+        margin-top: 50px;
+    }
+    .textalert {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .botones {
+        text-align: center;
+        margin-left: 75px;
+    }
+    .guardar {
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .cancelar {
+        text-align: center;
+        margin-left: -50px;
+    }
+}
