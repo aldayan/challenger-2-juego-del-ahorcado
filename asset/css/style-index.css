@@ -71,6 +71,12 @@
           /*diseño reponsivo*/
           
           @media screen and (max-width: 480px) {
+                    
+                                  body {
+                  background: linear-gradient(rgb(207, 46, 38), rgb(251, 251, 253));
+                  font-style: italic;
+                  background-repeat: repeat-x;
+              }
               header {
                   text-align: center;
                   font-size: 30px;
@@ -86,5 +92,6 @@
               footer {
                   width: 100%;
                   padding-left: 1px;
+                         padding-bottom: 300px;
               }
           }
